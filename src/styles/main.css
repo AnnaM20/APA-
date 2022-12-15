@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 body .container {
+  margin-top: 50px;
   width: 100vw;
   height: 100vh;
   margin-left: 10%;
@@ -12,13 +13,26 @@ body .container {
   grid-template-rows: 25% 25% 25%;
 }
 body .container button {
-  background-color: rgb(243, 212, 101);
+  background-color: rgb(248, 225, 141);
   border: none;
+  width: 100px;
+  height: 25px;
+}
+body .container h3 {
+  font-weight: 500;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  background-color: red;
 }
 body .container h4 {
+  display: flex;
   color: red;
   font-size: small;
-  margin-left: 15px;
+  justify-content: center;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 html nav {

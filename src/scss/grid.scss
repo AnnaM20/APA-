@@ -1,13 +1,15 @@
 body {
+    
     box-sizing: border-box;
     margin: 0;
-
+    
     
     
         
   
 
     .container  {
+        margin-top: 50px;
         width: 100vw;
         height: 100vh;
         margin-left: 10%;
@@ -17,17 +19,32 @@ body {
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 25% 25% 25%;
         
+        
 
         button {
-            background-color: rgb(243, 212, 101);
+            background-color: rgb(248, 225, 141);
             border: none;
+            width: 100px;
+            height:25px ;
+            
+        }
+        
+        h3{
+            font-weight: 500;
+            display: flex;
+            width: 100px;
+            justify-content: center;
+            background-color: red;
+          
         }
 
-        h4 {
+        h4 {display: flex;
             color: red;
             font-size:small;
-            margin-left: 15px;
-           
+            justify-content: center;
+            width: 100px;
+            margin-top: 15px;
+            margin-bottom: 15px;
             
         }
 
