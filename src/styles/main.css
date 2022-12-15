@@ -1,17 +1,69 @@
-/* Error: expected ";".
- *   ,
- * 3 | @import"./nav.scss"
- *   |                    ^
- *   '
- *   src/scss/main.scss 3:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 3 \2502  @import"./nav.scss"\a   \2502                     ^\a   \2575 \a   src/scss/main.scss 3:20  root stylesheet';
+body {
+  box-sizing: border-box;
+  margin: 0;
 }
+body .container {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25%;
+}
+body .container button {
+  background-color: rgb(243, 212, 101);
+  border: none;
+}
+body .container h4 {
+  color: red;
+  font-size: small;
+  margin-left: 15px;
+}
+
+html nav {
+  position: relative;
+}
+html nav .hl {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+html nav form {
+  display: flex;
+  justify-content: center;
+}
+html nav form .search {
+  border-bottom-color: gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 325px;
+  margin-top: 40px;
+}
+html nav form ::placeholder {
+  color: red;
+  text-align: right;
+  font-weight: 600;
+}
+html nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+html nav ul li {
+  list-style: none;
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
