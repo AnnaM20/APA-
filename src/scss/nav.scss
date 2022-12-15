@@ -1,0 +1,53 @@
+html{
+    nav{
+
+        position: relative;
+
+        .hl{ 
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+
+        }
+        form{
+
+            display: flex;
+            justify-content: center;
+
+
+            .search{
+                border-bottom-color: gray;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 325px;
+                margin-top: 40px;
+            }
+            ::placeholder{
+                color: red;
+                text-align: right;
+                font-weight: 600;
+            }
+        }
+
+        // 3 überschriften 
+        ul{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+
+            li{
+
+               list-style: none;
+               display: flex;
+               padding-left:70px;
+               padding-right: 70px;
+               font-weight: 600;
+               font-size: larger;
+
+            }
+        }
+
+    }
+}
